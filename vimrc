@@ -430,5 +430,8 @@ let g:user_zen_settings = {
 imap {<CR> {}<ESC>i<CR><ESC>O
 
 " NERDTree settings
-nmap wm :NERDTree<cr>
+" The following line would cause an annoying
+" delay when skipping word (w) noticeable after the last word
+" was skipped
+"nmap wm :NERDTree<cr>
 let NERDTreeIgnore=['\.swp$']
