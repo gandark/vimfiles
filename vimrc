@@ -435,3 +435,8 @@ imap {<CR> {}<ESC>i<CR><ESC>O
 " was skipped
 "nmap wm :NERDTree<cr>
 let NERDTreeIgnore=['\.swp$']
+
+
+" Caike custom
+set splitright
+set splitbelow
