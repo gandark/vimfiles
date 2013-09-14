@@ -435,7 +435,7 @@ imap {<CR> {}<ESC>i<CR><ESC>O
 " was skipped
 "nmap wm :NERDTree<cr>
 let NERDTreeIgnore=['\.swp$']
-
+autocmd VimEnter * NERDTree | wincmd w
 
 " Caike custom
 set splitright
